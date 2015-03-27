@@ -284,6 +284,7 @@ modules = [
     "taigaFeedback",
     "taigaPlugins",
     "taigaIntegrations",
+    "taigaProfile",
 
     # template cache
     "templates"
