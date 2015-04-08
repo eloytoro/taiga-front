@@ -88,7 +88,8 @@ urls = {
     "webhooks": "/webhooks"
     "webhooks-test": "/webhooks/%s/test"
     "webhooklogs": "/webhooklogs"
-    "webhooklogs-resend": "/webhooklogs/%s/resend"
+    "webhooklogs-resend": "/webhooklogs/%s/resend",
+    "timeline-profile": "/timeline/profile",
 
     # History
     "history/us": "/history/userstory"
@@ -168,5 +169,6 @@ module.run([
     "$tgModulesResourcesProvider",
     "$tgWebhooksResourcesProvider",
     "$tgWebhookLogsResourcesProvider",
+    "$tgTimelineResourcesProvider",
     initResources
 ])
